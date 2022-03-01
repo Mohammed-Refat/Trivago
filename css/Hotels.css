@@ -1,5 +1,4 @@
-*
-{
+*{
     margin:0;
     padding: 0;
     font-family: 'Roboto' , 'sans-serif';
@@ -12,7 +11,7 @@
    background-position: center;
 }
 body{
-    background-image: url(..//images/index.jpeg);
+    background-image: url(..//images/background.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-clip: border-box;

@@ -5,7 +5,7 @@ let btn3 = document.querySelector('#btn-3');
 
 
 btn1.addEventListener('click',()=>{
-    document.body.style.backgroundImage="url('images/pp.jpeg')";
+    document.body.style.backgroundImage="url('images/img5.jpg')";
 
 });
 
