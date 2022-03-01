@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM DATA</title>
+    <link href="css/Hotels.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<script src="https://code.jquery.com/jquery-3.1.1.js"
+integrity="sha256-16cdpddA6VdVInumRGo6IbivbERE8p7CQRHzBuELA="
+crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h2>REGISTERATION FORM</h2>
+        <form role="form" onsubmit="signUp(event);">
+            <div class="form-group">
+                <input type="text" name="fname" id="fname" placeholder="First Name" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" id="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+                <input type="password" name="pwd" id="pwd" placeholder="Password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit" >MY INFO</button>
+            </div>
+        </form>
+
+        <h2>MY INFO</h2>
+        <div id="output">
+            <!-- DISPLAY USERS DATA -->
+        </div>
+        <div class="form-group">
+            <button type="submit" onclick=location.href="Login.html" >sign up</button>
+        </div>
+    </div>
+
+    
+</body>
+
+</html>
