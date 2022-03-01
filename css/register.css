@@ -1,0 +1,38 @@
+*{ box-sizing: border-box; }
+        html, body{ margin: 0; padding: 0; }
+        body{
+            background-image: url(..//images/index.jpeg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-clip: border-box;
+            background-attachment: fixed ,scroll;
+        }
+        .container{
+            margin: 10px 50px;
+        }
+        .form-group{
+            margin: 10px;
+        }
+        input{
+            width: 100%;
+            border: solid 1px #eee;
+            padding: 15px 10px;
+        }
+        button{
+            width: 200px;
+            padding: 15px;
+            margin-left: 250px;
+            background: #fff;
+            color: dodgerblue;
+            border: solid 1px dodgerblue;
+            cursor: pointer;
+            transition:  all .38s ease-in-out;
+        }
+        button:hover{
+            background: dodgerblue;
+            color: #fff;
+        }
+        table tr td{
+            border: solid 1px rgb(240, 216, 216);
+            padding: 10px;
+        }

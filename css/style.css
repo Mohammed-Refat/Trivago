@@ -1,0 +1,128 @@
+* , html ,body
+{
+    margin: 0;
+    padding: 0;
+
+}
+header
+{
+    background-color:black;
+   height: 112px;
+   line-height: 112px;
+
+}
+
+
+ul
+{
+    list-style: none;
+}
+ul li
+{
+    display: inline-block;
+}
+header 
+nav  {
+    float: right;
+}
+
+.logo img {
+    margin-top: 2px;
+    width:100px;
+    height:100px;
+}
+header nav ul li a{
+ padding-right: 30px;
+ color: burlywood;
+ font-weight: bold;
+ transition: all 0.5s ease-in;
+}
+header nav ul li a:hover{
+    text-decoration: none;
+    color: rgba(219, 197, 0, 0.918);
+   
+}
+
+body{
+    background-image: url(..//images/index.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-attachment: fixed ,scroll;
+}
+form{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 420px;
+    background:rgba(0, 0, 0,.5);
+    border-radius: 15px;
+    box-sizing:border-box
+
+}
+form h2{
+    color: rgb(236, 234, 247);
+    text-align: center;
+    margin-top: 40px
+}
+input[type="username"],[type="password"]{
+position: absolute;
+outline:none;
+border:none;
+width:250px;
+height: 35px;
+border-bottom: 2px solid#0094ff;
+background: none;
+padding:5px;
+color:#fff;
+}
+input[type="username"]{
+    top: 100px;
+    left:50px;
+}
+[type="password"]{
+top: 180px;
+left: 50px
+}
+input[value="Log In"]{
+    position: absolute;
+    top: 300px;
+    left:110px;
+    width:130px;
+    height:35px;
+    background: #0077ff;
+    border:none;
+    outline:none;
+    color:#fff;
+    border-radius: 15px;
+    font-size:20px
+}
+input[value="Log In"] :hover{
+    background: #fff;
+    color:#0077ff;
+}
+p a{
+    position :absolute;
+    top:240px;
+    left:50px;
+    color:rgb(252, 247, 247);
+    font:bold;
+    cursor:pointer
+
+}
+.image{
+    display: flex;
+    justify-content: center;
+
+}
+.image button{
+    height: 50px;
+    width: 50px;
+    margin :30px;
+  font: bold;
+    
+}
+
+
