@@ -1,0 +1,84 @@
+* , html ,body
+{
+    margin: 0;
+    padding: 0;
+
+}
+header
+{
+    background-color:black;
+   height: 112px;
+   line-height: 112px;
+
+}
+
+ul
+{
+    list-style: none;
+}
+ul li
+{
+    display: inline-block;
+}
+header 
+nav  {
+    float: right;
+}
+
+.logo img {
+    margin-top: 2px;
+    width:100px;
+    height:100px;
+}
+header nav ul li a{
+ padding-right: 30px;
+ color: burlywood;
+ font-weight: bold;
+ transition: all 0.5s ease-in;
+}
+header nav ul li a:hover{
+    text-decoration: none;
+    color: rgba(219, 197, 0, 0.918);
+   
+}
+.img1{
+    background-image: url(..//images/img4.jpg);
+    background-size: 100% 100%;
+
+}
+.introimage{
+    background-image: url("images/img6.jpg");
+    width:100%;
+    height:550px;
+    background-size: cover;
+    background-attachment:scroll;
+  background-repeat: no-repeat;
+    
+}
+.rooms{
+    
+    height:50px;
+    color:purple;
+    text-align: center;
+    font-size:40px ;
+    margin-top:10px;
+    
+    
+}
+.pp{
+    
+    padding-right: 20%;
+    padding-left: 20%;
+
+    float:left;
+
+}
+.fa fa-utensils:hover{
+    color:rebeccapurple;
+    
+}
+.flagicon{
+    
+text-align:center;
+background-color:grey;
+}
